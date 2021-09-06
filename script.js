@@ -71,4 +71,33 @@ if (population > 33) {
     console.log(`${country}'s population is ${averagePopulation - population} million below average`)
 }
 
-// Atividade 5  
+//Teste 2 - Improved BMI
+
+
+//Mark
+let markHeight = 1.69;
+let markWeight = 78;
+//John
+let johnHeight = 1.95;
+let johnWeight = 92;
+
+
+let bmiMark = markWeight / markHeight **2; // 27.3
+
+let bmiJohn = johnWeight / johnHeight **2 // 24.1
+
+
+
+
+if (bmiMark > bmiJohn) {
+    console.log("Mark's BMI is higher than John's")
+}else{
+    console.log("John's BMI is higher than Mark's")
+}
+
+// Parte 2
+if (bmiMark > bmiJohn) {
+    console.log(`Mark's BMI ${bmiMark} is higher than John's ${bmiJohn}`)
+}else{
+    console.log("John's BMI is higher than Mark's")
+}
