@@ -71,4 +71,4 @@ if (population > 33) {
     console.log(`${country}'s population is ${averagePopulation - population} million below average`)
 }
 
-// Atividade 5  -
+// Atividade 5  
