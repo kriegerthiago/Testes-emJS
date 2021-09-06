@@ -29,8 +29,8 @@ bmiJohn = johnWeight / johnHeight**2 // 27.4
 markHigherBMI = bmiMark > bmiJohn
 
 console.log(markHigherBMI)
-*/
 
+*/
 // Atividade 1 -
 
  const country = "Brasil"
@@ -70,7 +70,7 @@ if (population > 33) {
 }else{
     console.log(`${country}'s population is ${averagePopulation - population} million below average`)
 }
-
+/*
 //Teste 2 - Improved BMI
 
 
@@ -101,3 +101,29 @@ if (bmiMark > bmiJohn) {
 }else{
     console.log("John's BMI is higher than Mark's")
 }
+
+*/
+
+
+ //Atividade 5 - 
+
+console.log('9' - '5'); // '4'
+'19' - '13' + '17'; // 617
+console.log('19' - '13' + 17); //23
+'123' < 57; // false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // 1143
+
+// Atividade 6 -
+
+let numNeighbors = Number(prompt("How many neighbors does your country have?"));
+
+if (numNeighbors === 1) {
+    console.log('Only 1 border!')
+}else if(numNeighbors > 1){
+    console.log('More than 1 border')
+}else{
+    console.log('No borders')
+}
+
+// Atividade 7 - 
+
